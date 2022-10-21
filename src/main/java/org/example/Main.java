@@ -17,10 +17,10 @@ import java.util.regex.Pattern;
 public class Main {
 
     private static String findAlternativeNamesInInfobox(String infobox) {
-        Pattern pattern = Pattern.compile("\\| iny_nazov = * *(?<buzerant>[^|]+)([ \\n])*\\|", Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile("\\| iny_nazov = * *(?<nazov>[^|]+)([ \\n])*\\|", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(infobox);
         if(matcher.find()) {
-            String group = matcher.group("buzerant").trim();
+            String group = matcher.group("nazov").trim();
             if(!group.isEmpty())
                 return group;
         }
