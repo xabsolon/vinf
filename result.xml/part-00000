@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pages>
+    <page>
+        <title>Hlavná stránka</title>
+        <id>1</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Main Page</title>
+        <id>2</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Upload log</title>
+        <id>4</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Category</title>
+        <id>63</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Linktrail</title>
+        <id>66</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Lastmodified</title>
+        <id>118</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Printsubtitle</title>
+        <id>121</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Administrators</title>
+        <id>123</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Sysoptitle</title>
+        <id>124</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Sysoptext</title>
+        <id>125</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Developertitle</title>
+        <id>126</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Developertext</title>
+        <id>127</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Sitesubtitle</title>
+        <id>131</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Newmessages</title>
+        <id>133</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Newusersonly</title>
+        <id>179</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Sectionedit</title>
+        <id>235</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Commentedit</title>
+        <id>236</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Searchhelppage</title>
+        <id>264</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Searchingwikipedia</title>
+        <id>265</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Searchresulttext</title>
+        <id>266</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Searchquery</title>
+        <id>267</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Nogomatch</title>
+        <id>271</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Prefslogintext</title>
+        <id>289</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Emailflag</title>
+        <id>321</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Rcloaderr</title>
+        <id>326</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Showhideminor</title>
+        <id>330</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Rchide</title>
+        <id>332</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Rcliu</title>
+        <id>333</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Tableform</title>
+        <id>338</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Listform</title>
+        <id>339</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Uploadlink</title>
+        <id>345</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Uploadfile</title>
+        <id>350</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Uploadtext</title>
+        <id>352</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Affirmation</title>
+        <id>360</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Noaffirmation</title>
+        <id>364</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Ilshowmatch</title>
+        <id>378</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:All</title>
+        <id>381</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Maintenance</title>
+        <id>400</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Maintnancepagetext</title>
+        <id>401</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Maintenancebacklink</title>
+        <id>402</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Selflinks</title>
+        <id>410</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Selflinkstext</title>
+        <id>411</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Mispeelings</title>
+        <id>412</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Mispeelingstext</title>
+        <id>413</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Mispeelingspage</title>
+        <id>414</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Missinglanguagelinks</title>
+        <id>415</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Missinglanguagelinksbutton</title>
+        <id>416</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Missinglanguagelinkstext</title>
+        <id>417</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Orphans</title>
+        <id>418</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Sysopspheading</title>
+        <id>433</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Developerspheading</title>
+        <id>434</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Protectpage</title>
+        <id>435</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Debug</title>
+        <id>438</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Watchlistsub</title>
+        <id>462</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Confirmcheck</title>
+        <id>494</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Undeletedtext</title>
+        <id>524</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Noblockreason</title>
+        <id>544</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Ipusuccess</title>
+        <id>550</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Asksql</title>
+        <id>574</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Asksqltext</title>
+        <id>575</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Sqlislogged</title>
+        <id>576</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Sqlquery</title>
+        <id>577</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Querybtn</title>
+        <id>578</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Selectonly</title>
+        <id>579</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Querysuccessful</title>
+        <id>580</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Esperanto</title>
+        <id>603</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Matematika</title>
+        <id>605</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Isaac Newton</title>
+        <id>606</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Francúzsko</title>
+        <id>608</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Literatúra</title>
+        <id>609</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Václav Havel</title>
+        <id>610</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Fyzika</title>
+        <id>611</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Zoznam štátov</title>
+        <id>612</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Trnava</title>
+        <id>613</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Známe chyby</title>
+        <id>614</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Návod</title>
+        <id>617</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Kaviareň</title>
+        <id>618</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Pomoc:Ako upravovať stránku</title>
+        <id>619</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Infobox</title>
+        <id>643</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Vitajte vo Wikipédii</title>
+        <id>649</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Pomoc:Wikitext</title>
+        <id>651</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Pomoc:Ako vytvoriť nový článok</title>
+        <id>652</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Najlepší článok</title>
+        <id>655</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Bureaucratlog</title>
+        <id>656</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Bureaucratlogentry</title>
+        <id>657</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Bureaucrattext</title>
+        <id>658</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>MediaWiki:Bureaucrattitle</title>
+        <id>659</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Pomoc</title>
+        <id>675</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Aktuality</title>
+        <id>676</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Buďte smelí pri úprave stránok</title>
+        <id>677</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Ako napísať výborný článok</title>
+        <id>678</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Názov článku</title>
+        <id>680</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Hudba</title>
+        <id>682</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Úvod</title>
+        <id>683</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Slovensko</title>
+        <id>686</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Maďarsko</title>
+        <id>687</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Nemecko</title>
+        <id>688</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Taekkyon</title>
+        <id>694</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>RTFM</title>
+        <id>695</id>
+        <alternativeNames>[]</alternativeNames>
+    </page>
+
+    <page>
+        <title>Wikipédia:Voľby</title>
+        <id>697</id>
+        <alternativeNames>[Nissan Kubistar]</alternativeNames>
+    </page>
+
+</pages>

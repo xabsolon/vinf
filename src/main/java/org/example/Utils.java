@@ -22,7 +22,7 @@ public class Utils {
 
     public static void writeJSONToFile(String name, JSONObject jsonObject) {
         try {
-            Files.writeString(Paths.get(name), jsonObject.toString(4));
+            Files.write(Paths.get(name), jsonObject.toString(4).getBytes(StandardCharsets.UTF_8));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
