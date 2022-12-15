@@ -2,7 +2,7 @@
 
 **Predmet:** Vyhľadávanie informácií  
 **Autor:** Michael Absolon  
-**Cvičiaci:** Ing. Igor Stupavský  
+**Cvičiaci:** Ing. Igor Stupavský
 
 Riešenie projektu v jazyku Java.
 
@@ -53,7 +53,7 @@ Diagram zobrazujúci jednotlivé fázy programu:
 
 #### Indexovanie
 Indexovanie je prevedené cez framework Apache Lucene a má ho na starosti
-trieda Index.java. Tá dostane na vstup JSON súbor, z ktorého následne vytvorí Index. 
+trieda Index.java. Tá dostane na vstup JSON súbor, z ktorého následne vytvorí Index.
 Ukážka JSON súboru:
 ```
   ...,
@@ -90,15 +90,22 @@ Boli napísané 4 Unit testy:
 Ukážka testu pre najdenie vetriesky:
 ```java
     @Test
-    public void testFindPragaV3S(){
+public void testFindPragaV3S(){
         List<Document> documents = index.search("Praga V3S");
         assertEquals(true, documents.stream().anyMatch(x -> x.getField("alternativeNames").stringValue().contains("Vetrieska")));
-    }
+        }
 ```
 
 V teste sa zavolá funkcia search, ktorá vrati pole dokumentov. A potom sa assertuje, či aspoň jeden nájdený dokument obsahuje alternatívne meno "vetrieska".
 
 ## Použivateľský manuál
+
+Spustiteľný .jar súbor sa nachádza v zložke build.
+Spustí sa príkazom:
+```
+java -jar vinf.jar
+```
+
 Po spustení programu sa do konzoli vypíše všetky možné príkazy:
 ```
 Index loaded. You can start searching.
