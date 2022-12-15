@@ -17,7 +17,6 @@ import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.ByteBuffersDirectory;
 import org.apache.lucene.store.Directory;
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -57,7 +56,7 @@ public class Index {
         }
     }
 
-    public void search(String strQuery) {
+    public List<Document> search(String strQuery) {
 
         Query query;
         try {
@@ -89,28 +88,10 @@ public class Index {
                 throw new RuntimeException(e);
             }
         }
-
-        System.out.println("Number of results: " + documents.size());
-
-        for (Document doc: documents) {
-            System.out.println();
-            System.out.println("Title: " + doc.getField("title").stringValue());
-
-            System.out.println("Alternative names: " + doc.getField("alternativeNames").stringValue());
-            try {
-                JSONArray names = new JSONArray(doc.getField("alternativeNames").stringValue());
-                for (Object name : names) {
-                    if (name instanceof String) {
-                        System.out.println(name);
-                    }
-                }
-            } catch (JSONException e) {
-                //System.out.println("Error printing alternative names");
-            }
-        }
+        return documents;
     }
 
-    public void searchByAlternativeNames(String strQuery) {
+    public List<Document> searchByAlternativeNames(String strQuery) {
 
         Query query;
         try {
@@ -142,24 +123,6 @@ public class Index {
                 throw new RuntimeException(e);
             }
         }
-
-        System.out.println("Number of results: " + documents.size());
-
-        for (Document doc: documents) {
-            System.out.println();
-            System.out.println("Title: " + doc.getField("title").stringValue());
-
-            System.out.println("Alternative names: " + doc.getField("alternativeNames").stringValue());
-            try {
-                JSONArray names = new JSONArray(doc.getField("alternativeNames").stringValue());
-                for (Object name : names) {
-                    if (name instanceof String) {
-                        System.out.println(name);
-                    }
-                }
-            } catch (JSONException e) {
-                //System.out.println("Error printing alternative names");
-            }
-        }
+        return documents;
     }
 }
